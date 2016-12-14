@@ -1,0 +1,81 @@
+    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" 
+	"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+    <html xmlns="http://www.w3.org/1999/xhtml">
+
+        <head>
+            <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+            <title>Kirjautuminen</title>
+			<style type="text/css">
+    div 
+	{ margin-bottom:5px; }
+	h1
+	{
+	position:absolute;
+	left:44%;
+	top:8%;
+	font-weight:lighter;
+	color:#6E0000;
+	}
+	#p1
+	{
+	position:absolute;
+	left:18%;
+	top:13%;
+	font-size:16px;
+	font-weight:lighter;
+	color:#B8B8B8;
+	}
+    label
+	{
+        display:block;
+        float:left;
+        width:150px;
+        text-align:left;
+        font-weight:bold;
+        margin-left:70px;
+        margin-right:10px;
+    }
+	table
+	{
+		position:absolute;
+		left:35%;
+		top:20%;
+		border-collapse:collapse;
+		border: 1px solid yellow;
+	}
+    input.submit { margin-left:160px; }
+	input.text { border-collapse:collapse; }
+</style>
+        </head>
+        <body>
+        <h1>Mielipidekysely</h1>
+		<p id="p1">---------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+		<table>
+		<tr>
+		<th style="width:450px;height:320px">
+		<p style="font-family:Arial;font-weight:lighter;font-size:30px;position:absolute;left:30%;top:4%">Kirjautuminen</p>
+        <form action="Akysely.html" method="link">
+            <div>
+                <label for="username" style="color:gray;font-weight:lighter;font-size:25px;position:absolute;left:-7%;top:35%">Tunnus:</label>
+                <input type="text" name="username" id="username" size="40" style="border:1px solid yellow;position:absolute;left:33%;top:37%"/>
+            </div>
+            <div>
+                <label for="password" style="color:gray;font-weight:lighter;font-size:25px;position:absolute;left:-7%;top:50%">Salasana:</label>
+                <input type="password" name="password" id="password" size="40" style="border:1px solid yellow;position:absolute;left:33%;top:52%"/>
+            </div>
+            <div>
+                <input type="submit" class="submit" value="Kirjaudu" style="border:1px solid yellow;font-size:20px;height:42px;width:118px;position:absolute;left:30%;top:68%"/>
+            </div>
+        </form>
+		</th>
+		</tr>
+		</table>
+<p>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" />
+    </a>
+</p> 
+        </body>
+    </html>

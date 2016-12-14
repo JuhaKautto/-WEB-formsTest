@@ -1,0 +1,87 @@
+    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" 
+	"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+    <html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Kysely</title>
+<style type="text/css">
+h1
+{
+position:absolute;
+left:44%;
+top:8%;
+font-weight:lighter;
+color:#6E0000;
+}
+#p1
+{
+position:absolute;
+left:18%;
+top:13%;
+font-size:16px;
+font-weight:lighter;
+color:#B8B8B8;
+}
+label
+{
+display:block;
+float:left;
+width:400px;
+text-align:left;
+font-weight:bold;
+margin-left:70px;
+margin-right:10px;
+}
+table
+{
+position:absolute;
+left:23%;
+top:20%;
+border-collapse:collapse;
+border: 1px solid yellow;
+}
+.redtext
+{
+color: red;
+}
+</style>
+</head>
+<body>
+<h1>Mielipidekysely</h1>
+<p id="p1">---------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+<table action="/lomakkeenVastaanottaja.php" method="post">
+<tr>
+<th width="800px" height="320px">
+<p style="font-family:Arial;font-weight:lighter;font-size:14px;position:absolute;left:60%;top:2%">Kirjautunut käyttäjä: <span class="redtext">Matti</span></p>
+<p style="font-family:Arial;font-weight:lighter;font-size:30px;position:absolute;left:40%;top:8%">Vastauksesi</p>
+<a name="Back" id="Back" href="Alogin.html" title="Log in" style="font-weight:lighter;position:absolute;left:85%;top:5%">Kirjaudu ulos</a>
+<form>
+<p>
+<input type="checkbox" name="l1" value="hauska" style="border:1px solid black;position:absolute;left:6%;top:45%"/>
+<label for="l1" style="color:gray;font-weight:lighter;font-size:25px;position:absolute;left:2%;top:43%">Opiskelu on hauskaa</label>
+<br />
+
+<input type="checkbox" name="l2" value="rankka" style="border:1px solid black;position:absolute;left:6%;top:55%"/>
+<label for="l2" style="color:gray;font-weight:lighter;font-size:25px;position:absolute;left:2%;top:53%">Opiskelu on rankkaa</label>
+<br />
+
+<input type="checkbox" name="l3" value="muu" style="border:1px solid black;position:absolute;left:6%;top:65%"/>
+<label for="l3" style="color:gray;font-weight:lighter;font-size:25px;position:absolute;left:2%;top:63%">Opiskelu on</label>
+</p>
+<label for="l4" style="color:gray;font-weight:lighter;font-size:17px;position:absolute;left:32%;top:38%">Kommentti</label>
+<textarea rows="4" cols="52" style="border:1px solid yellow;position:absolute;left:41%;top:49%"></textarea>
+<input type="submit" class="submit" value="Lähetä" style="border:1px solid yellow;font-size:20px;height:42px;width:118px;position:absolute;left:81%;top:80%"/>
+</form>
+</th>
+</tr>
+</table>
+<p>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" />
+    </a>
+</p>     
+        </body>
+    </html>
